@@ -24,7 +24,7 @@ public class ProductDTO implements Serializable {
 	private String name;
 	private String description;
 	
-	@Positive(message = "Preço deve ser o valor positivo")
+	@Positive(message = "Preço deve ser valor positivo")
 	private Double price;
 	private String imgUrl;
 	
